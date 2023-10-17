@@ -43,7 +43,7 @@ To add a user:
 
    You can add the user to an existing user group or create a new user group.
    
-   > For more information about creating a new user group, refer to [Creating a User Group].
+   > For more information about creating a new user group, refer to [User Groups in Central](https://github.com/himanibirhade/Central-User-Management/blob/fc5b13fb0e6bffcad2b559c4806f60f0824f25e9/user_groups_in_central.md).
    
 6. Click `Next`.
 
