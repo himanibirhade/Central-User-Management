@@ -51,7 +51,7 @@ To add a user:
 
 7. Select the permissions you want to set for the user.
 
-   > For more information about the different permissions that can be set for the user, refer to [Setting Permissions].
+   > For more information about the different permissions that can be set for the user, refer to [Permissions in Central](https://github.com/himanibirhade/Central-User-Management/blob/9d057b6beae8fde838c25bb36bbdc5f43e24f129/permissions_in_central.md).
 
 8. Click `Next`.
 
