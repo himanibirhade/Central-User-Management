@@ -1,1 +1,1 @@
-Multi-Factor Authentication in Central
+Multi-Factor Authentication (MFA) in Central
