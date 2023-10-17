@@ -59,7 +59,7 @@ To add a user:
    
 9. Enable the MFA and select the method to set the MFA.
 
-   > For more information about MFA, refer to [Setting up Multi-Factor Authentication (MFA)].
+   > For more information about MFA, refer to [Multi-Factor Authentication (MFA) in Central](https://github.com/himanibirhade/Central-User-Management/blob/46ba08da270b6598bc6058928af8acf0aacdd16b/mfa_in_central.md).
     
 10. Click `Next`.
 
