@@ -6,7 +6,7 @@ This document serves as a comprehensive guide for administrators and user manage
 
 ## Adding a User to Central
 
-This section describes how to add a new user to the Central using the console.
+This section describes how to add a new user to Central using the console.
 
 ### Verifying the Prerequisites 
 
