@@ -17,6 +17,7 @@ Ensure the following prerequisites are met before adding a new user to the Centr
     * Account administrator
     * Global administrator
     * User Management administrator
+  > For any assistance, contact Central Support.
 
 ### Accessing the User Management Tab
 
@@ -30,7 +31,7 @@ To access the `User Management` tab:
 
 ### Adding a User Account
 
-This section describes how to add a user account on Central.
+This section describes how to add a user account to Central using the console.
 
 To add a user:
 
@@ -65,7 +66,7 @@ To add a user:
    
 9. Configure the Multi-factor authentication (MFA) for the user.
 
-   > For more information about MFA, refer [Multi-Factor Authentication (MFA) in Central](https://github.com/himanibirhade/Central-User-Management/blob/46ba08da270b6598bc6058928af8acf0aacdd16b/mfa_in_central.md).
+   > For more information about configuring the MFA, refer [Multi-Factor Authentication (MFA) in Central](https://github.com/himanibirhade/Central-User-Management/blob/46ba08da270b6598bc6058928af8acf0aacdd16b/mfa_in_central.md).
     
 10. Click `Next`.
 
@@ -81,11 +82,29 @@ To add a user:
    
 13. Verify the user details and then click `Add User`.
   
-      The user's account has been added successfully.
+The user's account has been added successfully.
+
+### Adding Bulk Users to Central
+
+This section describes how to add bulk users to Central using the console.
+
+To add bulk users:
+
+1. On the `User Management` pane, click `Users`.
+   
+2. Select `Add Bulk Users`.
+3. Click `Import CSV file`.
+4. Browse and select the CSV file that contains a list of users who need to be added to Central.
+      > Ensure the CSV file contains all the required details, such as, first name, last name, and email address.
+
+5. Click `Run`.
+6. Verify the logs to ensure all the users are added.
+
+The bulk users have been added to Central successfully.
 
 ### Updating a User
 
-This section describes how to update a user on  Central.
+This section describes how to update a user on Central using the console.
 
 To update a user:
 
@@ -94,13 +113,37 @@ To update a user:
 3. Select the user whose details you want to update on Central.
 4. Click `Edit`.
 5. Update the required details.
-6. Click `Save`.
+   > You cannot update the password set for the user.
+
+      To update the password of a user, navigate to [Password Manager](https://central.passwordmanager.com).
+7. Click `Save`.
 
 The user's account has been updated successfully.
 
+### Updating Bulk Users
+
+This section describes how to update bulk users on Central using the console.
+
+To update bulk users:
+
+1. On the `User Management` pane, select `Users`.
+2. Select `Update Bulk Users`.
+3. Click `Import CSV file`.
+4. Browse and select the CSV file that contains a list of users whose accounts are to be updated on Central.
+      > Ensure the CSV file contains all the required details, such as, first name, last name, and email address.
+
+     > You cannot update the password set for the user.
+
+      To update the password of a user, navigate to [Password Manager](https://central.passwordmanager.com).
+
+6. Click `Run`.
+7. Verify the logs to ensure all the users' accounts are updated.
+
+The bulk users' accounts have been updated successfully.
+
 ### Deleting a User
 
-This section describes how to delete a user from Central.
+This section describes how to delete a user from Central using the console.
 
 > **Warning**
   You cannot recover a user's account once it is deleted.
@@ -111,12 +154,27 @@ To delete a user from Central:
 2. Select `Delete User`.
 3. Select the user you want to delete from Central.
 4. Click `Delete User`.
+   
+   A confirmation dialog box appears.
+
+5. If you want to delete the user, then click `Yes`, else click `Cancel` to abort the delete operation.
 
 The user has been deleted successfully.
 
+### Deleting Bulk Users
 
+This section describes how to delete bulk users from Central using the console.
 
+To delete bulk users from Central:
 
+1. On the `User Management` pane, select `Users`.
+2. Select `Delete Bulk Users`.
+3. Click `Import CSV file`.
+4. Browse and select the CSV file that contains a list of users whose accounts are to be deleted from Central.
+6. Click `Run`.
+7. Verify the logs to ensure all the users' accounts are deleted.
+
+The bulk users have been deleted successfully.
 
 
 
