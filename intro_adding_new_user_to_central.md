@@ -17,7 +17,7 @@ Ensure the following prerequisites are met before adding a new user to the Centr
     * Account administrator
     * Global administrator
     * User Management administrator
-  > For any assistance, contact Central Support.
+  > For any assistance, contact [Central Support](http://centrl.support.com).
 
 ### Accessing the User Management Tab
 
