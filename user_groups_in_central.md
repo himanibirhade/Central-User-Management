@@ -1,11 +1,11 @@
 ## User Groups in Central
 
-A user group is a group of individual users with similar roles and permissions.
+A user group is a group of individual users with similar roles and permissions on Central.
 
 The following are the default user groups available on the Central portal:
 
 * Administrators: This user group has full access to all features and functionalities within Central
-* Owners: This user group has elevated privileges, allowing them to oversee certain aspects of user management and Central
+* Owners: This user group has elevated privileges, allowing them to oversee certain aspects of user management in Central
 * Readers: This user group has internal users with read-only access to Central
 * Guests: This user group has external users with read-only access to Central
 
