@@ -29,7 +29,7 @@ To access the `User Management` tab:
 2. Navigate to the `User Management` tab on the left pane.
       > If you have inappropriate roles, then you cannot view the `User Management` tab.
 
-### Adding a User Account
+### Adding a User 
 
 This section describes how to add a user account to Central using the console.
 
