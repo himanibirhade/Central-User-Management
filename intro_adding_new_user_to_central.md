@@ -8,13 +8,6 @@ This document serves as a comprehensive guide for administrators and user manage
 
 This section describes how to add a new user to the Central using the console.
 
-The following is an overview of the process for adding a user to the Central using the console.
-1. Verifying prerequisites
-2. Accessing the `User Management` tab
-3. Adding a user
-4. Deleting a user
-      > You cannot recover a user's account once it is deleted.
-
 ### Verifying the Prerequisites 
 
 Ensure the following prerequisites are met before adding a new user to the Central:
@@ -27,16 +20,17 @@ Ensure the following prerequisites are met before adding a new user to the Centr
 
 ### Accessing the User Management Tab
 
-This section describes how to access the `User Management` tab on the Central portal.
+This section describes how to access the `User Management` tab on Central.
 
 To access the `User Management` tab:
 
 1. Log in to the [Central portal](https://central.portal.com).
 2. Navigate to the `User Management` tab on the left pane.
+      > If you have inappropriate roles, then you cannot view the `User Management` tab.
 
-### Adding a User
+### Adding a User Account
 
-This section describes how to add a user to the Central portal.
+This section describes how to add a user account on Central.
 
 To add a user:
 
@@ -55,7 +49,7 @@ To add a user:
 5. Assign a user group to the user.
    You can either add the user to an existing user group or create a new user group.
    
-   > For more information about creating a new user group, refer to [User Groups in Central](https://github.com/himanibirhade/Central-User-Management/blob/fc5b13fb0e6bffcad2b559c4806f60f0824f25e9/user_groups_in_central.md).
+   > For more information about creating a new user group, refer [User Groups in Central](https://github.com/himanibirhade/Central-User-Management/blob/fc5b13fb0e6bffcad2b559c4806f60f0824f25e9/user_groups_in_central.md).
    
 6. Click `Next`.
 
@@ -63,7 +57,7 @@ To add a user:
 
 7. Select the permissions you want to set for the user.
 
-   > For more information about the different permissions that can be set for the user, refer to [Permissions in Central](https://github.com/himanibirhade/Central-User-Management/blob/9d057b6beae8fde838c25bb36bbdc5f43e24f129/permissions_in_central.md).
+   > For more information about the different permissions that can be set for the user, refer [Permissions in Central](https://github.com/himanibirhade/Central-User-Management/blob/9d057b6beae8fde838c25bb36bbdc5f43e24f129/permissions_in_central.md).
 
 8. Click `Next`.
 
@@ -71,7 +65,7 @@ To add a user:
    
 9. Configure the Multi-factor authentication (MFA) for the user.
 
-   > For more information about MFA, refer to [Multi-Factor Authentication (MFA) in Central](https://github.com/himanibirhade/Central-User-Management/blob/46ba08da270b6598bc6058928af8acf0aacdd16b/mfa_in_central.md).
+   > For more information about MFA, refer [Multi-Factor Authentication (MFA) in Central](https://github.com/himanibirhade/Central-User-Management/blob/46ba08da270b6598bc6058928af8acf0aacdd16b/mfa_in_central.md).
     
 10. Click `Next`.
 
@@ -87,9 +81,24 @@ To add a user:
    
 13. Verify the user details and then click `Add User`.
   
-      The user has been added successfully.
+      The user's account has been added successfully.
 
-### Deleting the User
+### Updating a User
+
+This section describes how to update a user on  Central.
+
+To update a user:
+
+1. On the `User Management` pane, select `Users`.
+2. Select `Update User`.
+3. Select the user whose details you want to update on Central.
+4. Click `Edit`.
+5. Update the required details.
+6. Click `Save`.
+
+The user's account has been updated successfully.
+
+### Deleting a User
 
 This section describes how to delete a user from Central.
 
