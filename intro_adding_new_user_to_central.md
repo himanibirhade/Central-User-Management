@@ -82,7 +82,7 @@ To add a user:
    
 13. Verify the user details and then click `Add User`.
   
-The user's account has been added successfully.
+The user has been added successfully.
 
 ### Adding Bulk Users to Central
 
@@ -118,7 +118,7 @@ To update a user:
       To update the password of a user, navigate to [Password Manager](https://central.passwordmanager.com).
 7. Click `Save`.
 
-The user's account has been updated successfully.
+The user has been updated successfully.
 
 ### Updating Bulk Users
 
@@ -139,14 +139,14 @@ To update bulk users:
 6. Click `Run`.
 7. Verify the logs to ensure all the users' accounts are updated.
 
-The bulk users' accounts have been updated successfully.
+The bulk users have been updated successfully.
 
 ### Deleting a User
 
 This section describes how to delete a user from Central using the console.
 
 > **Warning**
-  You cannot recover a user's account once it is deleted.
+  You cannot recover a user once it is deleted.
 
 To delete a user from Central:
 
