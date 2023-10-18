@@ -1,8 +1,8 @@
 ## Permissions in Central
 
-Permissions are a set of rules and settings that determine what actions a user or a group of users can perform within the Central.
+Permissions are a set of rules and settings that determine what actions a user or a group of users can perform within  Central.
 
-The following are the permissions that you can set for a user or a user group in Centra:
+The following are the permissions that you can set for a user or a user group in Central:
 
 * View: Users with view permissions can see data and information within Central but cannot make changes. This is often used for read-only access.
 
